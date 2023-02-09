@@ -1,0 +1,199 @@
+body {
+    background-image: url("wood.jpg");
+    background-size: cover;
+}
+
+.big-container {
+    margin: 5% 10%;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+    padding: 4vw;
+}
+
+.grey-box {
+    background-color: rgb(196, 194, 194);
+    padding: 1.5vw;
+    border-radius: 10px;
+    color: black;
+    float: right;
+    /* vertical-align: top; */
+    /* margin-bottom: 20px; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar {
+    border-style: solid;
+    border-width: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    font-size: 12px;
+}
+
+.col {
+    padding: 1vw;
+}
+.col:hover {
+    background-color: rgb(205, 205, 205);
+}
+.forest-div {
+    position: relative;
+    padding: 9px;
+    border: solid 1px;
+    outline: solid 1px;
+    outline-offset: -6px;
+}
+
+.forest-text {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.red-box-right {
+    background-image: linear-gradient(to bottom right, rgb(130, 29, 29), rgb(79, 17, 17));
+    color: white;
+    width: 100%;
+    padding: 10px;
+    overflow: scroll;
+    height: 39vw;
+}
+
+.red-box-right p {
+    font-weight: 200;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 6px;
+    padding: 3px;
+  }
+
+hr {
+    margin-top: 5px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 80px;
+    padding: 3px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+h2 {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    margin: 0px;
+}
+
+#red-email {
+    color:brown;
+    text-decoration: underline;
+}
+
+#thick-line {
+    height: 2px;
+    background-color: black;
+    margin-bottom: 2px;
+}
+
+span {
+    color: rgb(179, 179, 179);
+}
+
+.footer {
+    text-align:center;
+    font-size: 11px;
+    color: black;
+    margin-top: 0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    color: rgb(179, 179, 179);
+    margin-top: 25px;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 25% auto auto;
+    gap: 10px;
+    row-gap: 30px;
+    padding: 10px;
+}
+
+#red-menu {
+    grid-row: 1 / 6;
+    margin-right: 20px;
+}
+
+.desk-pic {
+    grid-column: 2 / span 2;
+    position: relative;
+    padding: 9px;
+    border: solid 1px;
+    outline: solid 1px;
+    outline-offset: -6px;
+    height: 200px
+}
+
+.desk-text {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+.desk-img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 15% 50%;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 110px auto;
+    gap: 5px;
+  }
+
+#no-bottom {
+    margin-bottom: 0px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.grid-container3 > div {
+    font-size: 30px;
+  }
+
+#white {
+    color: white;
+    font-weight: 400;
+}
